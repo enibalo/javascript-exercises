@@ -2,7 +2,6 @@ const fibonacci = function(index) {
     if (index <= 0){
         return "OOPS";
     } 
-    
     let answer = 1;
     let prev_answer = 1;
     let prev2_answer = 0;
